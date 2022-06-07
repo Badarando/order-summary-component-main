@@ -447,8 +447,8 @@ body .content button {
 }
 
 body .content button:hover {
-  -webkit-filter: brightness(200%);
-          filter: brightness(200%);
+  -webkit-filter: brightness(150%);
+          filter: brightness(150%);
   cursor: pointer;
 }
 
@@ -497,8 +497,8 @@ body .content .cancel-order span {
     font-size: 12px;
   }
   body .content button:hover {
-    -webkit-filter: brightness(200%);
-            filter: brightness(200%);
+    -webkit-filter: brightness(150%);
+            filter: brightness(150%);
     cursor: pointer;
   }
   body .content .cancel-order {
