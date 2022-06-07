@@ -5,7 +5,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#Order-summary-component-main)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Badarando/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://badarando.github.io/order-summary-component-main/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -50,7 +50,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Sass
+- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework

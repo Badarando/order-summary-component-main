@@ -89,7 +89,7 @@ body {
                 border: none;
                 
                 &:hover {
-                    filter: brightness(150%);
+                    filter: brightness(200%);
                     cursor: pointer;
                 }
             }
@@ -119,7 +119,6 @@ body {
         .content {
              height: 35rem;
              width: 23rem;
-             margin-top: 5rem;
 
              .payment {
                  margin-top: 1rem;
@@ -139,7 +138,7 @@ body {
                  font-size: 12px;
 
                 &:hover {
-                    filter: brightness(150%);
+                    filter: brightness(200%);
                     cursor: pointer;
                 }
              }

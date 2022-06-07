@@ -447,8 +447,8 @@ body .content button {
 }
 
 body .content button:hover {
-  -webkit-filter: brightness(150%);
-          filter: brightness(150%);
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
   cursor: pointer;
 }
 
@@ -482,7 +482,6 @@ body .content .cancel-order span {
   body .content {
     height: 35rem;
     width: 23rem;
-    margin-top: 5rem;
   }
   body .content .payment {
     margin-top: 1rem;
@@ -498,8 +497,8 @@ body .content .cancel-order span {
     font-size: 12px;
   }
   body .content button:hover {
-    -webkit-filter: brightness(150%);
-            filter: brightness(150%);
+    -webkit-filter: brightness(200%);
+            filter: brightness(200%);
     cursor: pointer;
   }
   body .content .cancel-order {
