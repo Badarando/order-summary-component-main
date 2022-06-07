@@ -482,6 +482,7 @@ body .content .cancel-order span {
   body .content {
     height: 35rem;
     width: 23rem;
+    margin-top: 5rem;
   }
   body .content .payment {
     margin-top: 1rem;
