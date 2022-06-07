@@ -343,6 +343,9 @@ template {
 }
 
 body {
+  background-image: url(../../images/pattern-background-mobile.svg);
+  background-color: #f5f7ff;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,13 +356,110 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../../images/pattern-background-desktop.svg);
-  background-repeat: no-repeat;
-  background-color: #e0e8ff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Red Hat Display', sans-serif;
 }
 
-.principal {
+body .content {
+  margin-top: 3rem;
+  height: 35rem;
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.171);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.171);
+}
+
+body .content .illustration-mobile {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+body .content h1 {
+  margin-top: 1.8rem;
+  font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
+  color: #1f2f56;
+}
+
+body .content p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6em;
+  color: #7280a7;
+}
+
+body .content .payment {
+  height: 5rem;
+  width: 17rem;
+  margin: 1.2rem auto;
+  background-color: #f5f7ff;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content .payment .music {
+  margin-left: 1rem;
+}
+
+body .content .payment .annual {
+  width: 8rem;
+}
+
+body .content .payment .annual p {
+  color: #1f2f56;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 900;
+  line-height: 0.5em;
+}
+
+body .content .payment .annual .price {
+  font-weight: 500;
+}
+
+body .content .payment a {
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-left: 0.6rem;
+}
+
+body .content button {
+  display: block;
+  margin: auto;
+  height: 3.2rem;
+  width: 17rem;
+  font-weight: 700;
+  color: #fff;
+  background: #3829e0;
+  -webkit-box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.199);
+  border-radius: 12px;
+  border: none;
+}
+
+body .content button:hover {
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
+  cursor: pointer;
+}
+
+body .content .cancel-order {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #7280a7;
+}
+
+body .content .cancel-order span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,114 +470,39 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 20px;
-  margin-top: 2rem;
-  position: absolute;
-  width: 27rem;
-  height: 40rem;
-  background-color: #fff;
+  margin-top: 1.5rem;
 }
 
-.principal img {
-  border-radius: 20px 20px 0px 0px;
-  width: 100%;
-}
-
-.principal h1 {
-  font-weight: 900;
-  margin-top: 2.5rem;
-  text-align: center;
-  color: #1f2f56;
-}
-
-.principal p {
-  margin-top: 0.5rem;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-  line-height: 1.5em;
-  color: #7280a7;
-}
-
-.principal .plan {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 20rem;
-  height: 5rem;
-  border-radius: 15px;
-  background: #f5f7ff;
-}
-
-.principal .plan .music {
-  width: 2.6rem;
-  height: 2.6rem;
-  margin-left: 10px;
-  margin-right: 20px;
-}
-
-.principal .plan .plan-annual {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 13rem;
-}
-
-.principal .plan .plan-annual p {
-  font-size: 16px;
-  text-align: justify;
-  color: #7280a7;
-}
-
-.principal .plan .plan-annual span {
-  color: #1f2f56;
-  font-weight: 900;
-}
-
-.principal .plan .change {
-  font-size: 16px;
-  font-weight: 700;
-  color: #3829e0;
-  text-decoration: none;
-  margin-left: 28px;
-}
-
-.principal button {
-  width: 20rem;
-  height: 2.8rem;
-  margin-top: 2rem;
-  border-radius: 10px;
-  -webkit-box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.144);
-          box-shadow: 1px 8px 8px rgba(0, 0, 0, 0.144);
-  background-color: #3829e0;
-  color: white;
-  border: none;
-}
-
-.principal button:hover {
-  -webkit-filter: brightness(150%);
-          filter: brightness(150%);
-  cursor: pointer;
-}
-
-.principal .cancel-order {
-  margin-top: 2rem;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: 700;
-  color: #1f2f56;
+@media (min-width: 23.5em) {
+  body {
+    background-image: url(../../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #f5f7ff;
+  }
+  body .content {
+    height: 35rem;
+    width: 23rem;
+  }
+  body .content .payment {
+    margin-top: 1rem;
+    width: 18rem;
+  }
+  body .content .payment a {
+    font-size: 12px;
+    margin-left: 1.5rem;
+  }
+  body .content button {
+    height: 2.5rem;
+    width: 18rem;
+    font-size: 12px;
+  }
+  body .content button:hover {
+    -webkit-filter: brightness(200%);
+            filter: brightness(200%);
+    cursor: pointer;
+  }
+  body .content .cancel-order {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
